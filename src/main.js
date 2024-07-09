@@ -11,4 +11,7 @@ const app = createApp(App)
 app.use(createPinia())
 app.use(router)
 
+import './plugins/axios';
+
+
 app.mount('#app')
